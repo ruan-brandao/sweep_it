@@ -7,7 +7,7 @@ use Mix.Config
 config :sweep_it, :viewport, %{
       name: :main_viewport,
       size: {700, 600},
-      default_scene: {SweepIt.Scene.Splash, SweepIt.Scene.Sensor},
+      default_scene: {SweepIt.Scene.Board, []},
       drivers: [
         %{
           module: Scenic.Driver.Glfw,
